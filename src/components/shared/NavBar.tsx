@@ -30,7 +30,7 @@ const NavBar = () => {
                         </ul>
                     </div>
                     <Link to="/" className="flex items-center gap-2">
-                        <img src={logo} className="h-16 w-16" alt="" />
+                        <img src={logo} className="h-16 w-16 hidden md:block" alt="" />
                         <p className="text-xl font-semibold bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] bg-clip-text text-transparent">HERO.IO</p>
                     </Link>
                 </div>
