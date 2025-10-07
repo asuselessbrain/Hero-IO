@@ -2,16 +2,14 @@ import { use } from "react";
 import Card from "../shared/Card";
 import type { App } from "../../pages/Home";
 import { Link } from "react-router";
+import Heading from "../shared/Heading";
 
 const TrendingApps = ({fetchResponse}:{fetchResponse: Promise<App[]>}) => {
     const appsData = use(fetchResponse)
     return (
         <div className="bg-gray-100 py-20">
             <div className="max-w-[1440px] mx-auto">
-                <div className="text-center ">
-                    <h2 className="text-3xl md:text-5xl font-semibold">Trending Apps</h2>
-                    <p className="opacity-80 text-xl mt-4">Explore All Trending Apps on the Market developed by us</p>
-                </div>
+                <Heading title="Trending Apps" subTitle="Explore All Apps on the Market developed by us. We code for Millions" />
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6 my-10">
 
                     {
