@@ -1,6 +1,6 @@
 # HeroVault
 
-[HeroVault](https://herovault.netlify.app)
+[![HeroVault](./logo.png) HeroVault](https://herovault.netlify.app)
 
 
 ## Description
