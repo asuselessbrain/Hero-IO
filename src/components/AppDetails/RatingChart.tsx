@@ -4,11 +4,12 @@ import type { Rating } from '../../pages/Home';
 
 const RatingChart = ({ratings}: {ratings: Rating[] }) => {
     return (
-        <ResponsiveContainer width="100%" height={600} className={`px-2`}>
+        <div className={`px-2 border-b border-gray-300 pb-10`}>
+            <h3 className='my-6 text-2xl font-semibold'>Ratings</h3>
+            <ResponsiveContainer width="100%" height={600}>
             <BarChart
                 data={ratings}
                 layout="vertical"
-                margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
             >
                 <XAxis type="number" />
                 <YAxis dataKey="name" type="category" />
@@ -16,6 +17,7 @@ const RatingChart = ({ratings}: {ratings: Rating[] }) => {
                 <Bar dataKey="count" fill="#FF8811" />
             </BarChart>
         </ResponsiveContainer>
+        </div>
     );
 };
 
