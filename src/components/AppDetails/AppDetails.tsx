@@ -12,7 +12,6 @@ const AppDetailsComponent = ({ singleAppResponse, id }: { singleAppResponse: Pro
     if (!app) {
         return <div>App not found</div>
     }
-    console.log(app);
     return (
         <div className="bg-gray-100 min-h-[calc(100vh-302px)]">
             <div className="max-w-[1440px] mx-auto px-2 py-20">
