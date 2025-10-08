@@ -1,6 +1,7 @@
 import { use } from "react";
 import type { App } from "../../pages/Home";
 import AppStatas from "./AppStatas";
+import RatingChart from "./RatingChart";
 
 
 const AppDetailsComponent = ({ singleAppResponse, id }: { singleAppResponse: Promise<App[]>, id: string | undefined }) => {
@@ -24,6 +25,7 @@ const AppDetailsComponent = ({ singleAppResponse, id }: { singleAppResponse: Pro
                         <button className="text-xl font-semibold text-white px-5 py-4 bg-[#00D390] rounded mt-8">Install Now({app?.size} MB)</button>
                     </div>
                 </div>
+                <RatingChart ratings={app?.ratings} />
             </div>
         </div>
     );
