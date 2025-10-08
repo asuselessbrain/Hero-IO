@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
-const AppNotFound = ({imag, title, subTitle, btnText, link}: {imag:string, title:string, subTitle:string, btnText:string, link:string}) => {
+const AppNotFound = ({ imag, title, subTitle, btnText, link, minHight }: { imag: string, title: string, subTitle: string, btnText: string, link: string, minHight: string }) => {
     return (
-        <div className='flex items-center justify-center flex-col min-h-[calc(100vh-302px)]'>
+        <div className={`flex items-center justify-center flex-col ${minHight}`}>
             <img src={imag} alt="App not found image" />
             <h2 className='text-5xl font-semibold mt-10'>{title}</h2>
             <p className='opacity-80 my-4'>{subTitle}</p>
