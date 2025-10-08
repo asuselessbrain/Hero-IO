@@ -5,6 +5,7 @@ import RatingChart from "./RatingChart";
 import AppNotFound from "../shared/AppNotFound";
 import appNotFound from '../../assets/images/App-Error.png'
 import { getFromLocalStorage, setItemIntoDB } from "../../utils/LocalStorage";
+import { toast } from "react-toastify";
 
 
 
@@ -23,14 +24,13 @@ const AppDetailsComponent = ({ singleAppResponse, id }: { singleAppResponse: Pro
 
     const handleInstall = (id: number) => {
         setItemIntoDB(id);
+        toast.success("App Installed Successfully");
         setIsInstalled(true);
     };
 
     if (!app) {
         return <AppNotFound imag={appNotFound} title="OPPS!! APP NOT FOUND" subTitle="The App you are requesting is not found on our system.  please try another apps" btnText="Go Back!" link="/apps" minHight="min-h-[calc(100vh-302px)]" />
     }
-
-
 
     return (
         <div className="bg-gray-100 min-h-[calc(100vh-302px)]">

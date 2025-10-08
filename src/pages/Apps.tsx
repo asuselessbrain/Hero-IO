@@ -21,7 +21,7 @@ const Apps = () => {
     return (
         <div className="py-20 bg-gray-100 min-h-[calc(100vh-302px)]">
             <div className="max-w-[1440px] mx-auto px-2">
-                <div className="py-20 max-w-[1440px] mx-auto">
+                <div className="pb-6">
                     <Heading title="Our All Applications" subTitle="Explore All Apps on the Market developed by us. We code for Millions" />
                 </div>
                 <AppCountAndSearch searchTerm={searchTerm} setSearchTerm={setSearchTerm}  />

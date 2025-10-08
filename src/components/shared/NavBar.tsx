@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 const nabLinks = [
     { name: "Home", link: "/" },
     { name: "Apps", link: "/apps" },
-    { name: "Installation", link: "/installation" },
+    { name: "Installation", link: "/installed-apps" },
 ]
 
 const NavBar = () => {

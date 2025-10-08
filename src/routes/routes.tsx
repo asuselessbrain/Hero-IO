@@ -5,6 +5,7 @@ import Apps from "../pages/Apps";
 import AppDetails from "../pages/AppDetails";
 import AppNotFound from "../components/shared/AppNotFound";
 import pageNotFound from '../assets/images/error-404.png'
+import InstalledApps from "../pages/InstalledApps";
 
 export const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
         {
             path: "/apps/:id",
             element: <AppDetails />
+        },
+        {
+            path: "/installed-apps",
+            element: <InstalledApps />
         }
     ]
   },
