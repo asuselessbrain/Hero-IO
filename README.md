@@ -1,9 +1,10 @@
 # Hero IO
 
-![Hero IO Logo](https://herovault.netlify.app/)
+[![HeroVault](https://herovault.netlify.app/)](https://herovault.netlify.app/)
+
 
 ## Description
-**Hero IO** is a responsive web application showcasing a curated collection of mobile applications. Users can explore, search, filter, and view detailed information about each app. The application allows users to simulate app installation, track installed apps, and sort apps by downloads. Built with a focus on performance, usability, and clean design, Hero IO mimics a real app store experience.
+**HeroVault** is a responsive web application showcasing a curated collection of mobile applications. Users can explore, search, filter, and view detailed information about each app. The application allows users to simulate app installation, track installed apps, and sort apps by downloads. Built with a focus on performance, usability, and clean design, Hero IO mimics a real app store experience.
 
 ## Features
 - Fully responsive layout for all devices.
