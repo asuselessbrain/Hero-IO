@@ -10,11 +10,16 @@ const apps = fetch('/data.json').then(res => res.json())
 
 const InstalledApps = () => {
     const [installedApps, setInstalledApps] = useState<number[]>(getFromLocalStorage("installedApps") || []);
+    const [sortOrder, setSortOrder] = useState("")
 
     const handleUninstall = (id: number) => {
         const newApps = removeItemFromDB(id)
         setInstalledApps(newApps)
         toast.success("App uninstalled successfully!")
+    }
+
+    const handleSort = (value: string) => {
+        setSortOrder(value)
     }
 
     return (
@@ -23,10 +28,10 @@ const InstalledApps = () => {
                 <Heading title="My Installed Apps" subTitle="Explore All Trending Apps on the Market developed by us" />
                 <div className="flex flex-col md:flex-row items-center justify-between gap-2">
                     <p className="text-2xl font-semibold flex-1">({installedApps.length}) Apps Found</p>
-                    <Sorting />
+                    <Sorting handleSort={handleSort} />
                 </div>
                 <Suspense fallback={<Loading />}>
-                    <InstalledApp apps={apps} installedApps={installedApps} handleUninstall={handleUninstall} />
+                    <InstalledApp apps={apps} installedApps={installedApps} handleUninstall={handleUninstall} sortOrder={sortOrder} />
                 </Suspense>
             </div>
 

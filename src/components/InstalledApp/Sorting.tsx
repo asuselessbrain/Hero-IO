@@ -1,7 +1,12 @@
 import { useState } from "react";
 
-const Sorting = () => {
+const Sorting = ({ handleSort }: { handleSort: (value: string) => void }) => {
     const [openDropdown, setOpenDropDown] = useState(false)
+
+    const closeDropDown = (value: string) => {
+        handleSort(value)
+        setOpenDropDown(false)
+    }
 
     return (
         <div className="relative mt-4">
@@ -15,16 +20,13 @@ const Sorting = () => {
                 openDropdown && (<div className="z-10 absolute top-12 -right-1 bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44">
                     <ul className="py-2 text-sm text-gray-700" aria-labelledby="dropdownDefaultButton">
                         <li>
-                            <a href="#" className="block px-4 py-2 hover:bg-gray-100">Dashboard</a>
+                            <p onClick={() => closeDropDown("")} className="block px-4 py-2 hover:bg-gray-100">Sort By Size</p>
                         </li>
                         <li>
-                            <a href="#" className="block px-4 py-2 hover:bg-gray-100">Settings</a>
+                            <p onClick={() => closeDropDown("asc")} className="block px-4 py-2 hover:bg-gray-100">Low - High</p>
                         </li>
                         <li>
-                            <a href="#" className="block px-4 py-2 hover:bg-gray-100">Earnings</a>
-                        </li>
-                        <li>
-                            <a href="#" className="block px-4 py-2 hover:bg-gray-100">Sign out</a>
+                            <p onClick={() => closeDropDown("dsc")} className="block px-4 py-2 hover:bg-gray-100">High - Low</p>
                         </li>
                     </ul>
                 </div>)
