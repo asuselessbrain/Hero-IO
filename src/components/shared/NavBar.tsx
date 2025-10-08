@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import logo from "../../assets/images/logo.png";
 import { FaGithub } from "react-icons/fa";
 
@@ -23,7 +23,7 @@ const NavBar = () => {
                             {
                                 nabLinks.map((navLink) => (
                                     <li key={navLink.name}>
-                                        <Link to={navLink.link}>{navLink.name}</Link>
+                                        <NavLink className={({ isActive }) => isActive ? "font-semibold bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] bg-clip-text text-transparent" : ""} to={navLink.link}>{navLink.name}</NavLink>
                                     </li>
                                 ))
                             }
@@ -39,7 +39,7 @@ const NavBar = () => {
                         {
                             nabLinks.map((navLink) => (
                                 <li key={navLink.name}>
-                                    <Link to={navLink.link}>{navLink.name}</Link>
+                                    <NavLink className={({ isActive }) => isActive ? "font-semibold bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] bg-clip-text text-transparent" : ""} to={navLink.link}>{navLink.name}</NavLink>
                                 </li>
                             ))
                         }
