@@ -16,9 +16,9 @@ export interface App {
     companyName: string;
     description: string;
     size: number;
-    reviews: number;
+    reviews: string;
     ratingAvg: number;
-    downloads: number;
+    downloads: string;
     ratings: Rating[];
 }
 

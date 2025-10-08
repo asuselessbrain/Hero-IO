@@ -1,461 +1,661 @@
 [
     {
-    "id": 1,
-    "image": "https://play-lh.googleusercontent.com/kuQAsnTkzH05biRCqnzK965098fUsQxvBKUE21AvLlpbH_BovcxMFDeXzW041NbILQ",
-    "title": "TaskFlow Manager",
-    "companyName": "OrionSoft",
-    "description": "TaskFlow Manager is a productivity tool designed to simplify project management for teams of all sizes. With its intuitive drag-and-drop interface, real-time collaboration, and AI-powered task prioritization, users can plan, track, and execute their workflows effortlessly. It integrates with Slack, Google Drive, and Trello, ensuring smooth communication and document management. The system also includes detailed analytics dashboards that help managers visualize progress and resource utilization. TaskFlow Manager is ideal for startups, enterprises, and freelancers seeking to enhance productivity and streamline operations.",
-    "size": 48.3,
-    "reviews": 1450,
-    "ratingAvg": 4.6,
-    "downloads": 92000,
-    "ratings": [
-            { "name": "1 star", "count": 45
+        "id": 1,
+        "image": "https://play-lh.googleusercontent.com/kuQAsnTkzH05biRCqnzK965098fUsQxvBKUE21AvLlpbH_BovcxMFDeXzW041NbILQ",
+        "title": "TaskFlow Manager",
+        "companyName": "OrionSoft",
+        "description": "TaskFlow Manager is a productivity tool designed to simplify project management for teams of all sizes. With its intuitive drag-and-drop interface, real-time collaboration, and AI-powered task prioritization, users can plan, track, and execute their workflows effortlessly. It integrates with Slack, Google Drive, and Trello, ensuring smooth communication and document management. The system also includes detailed analytics dashboards that help managers visualize progress and resource utilization. TaskFlow Manager is ideal for startups, enterprises, and freelancers seeking to enhance productivity and streamline operations.",
+        "size": 48.3,
+        "ratingAvg": 4.6,
+        "reviews": "1.5K",
+        "downloads": "92K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 45
             },
-            { "name": "2 star", "count": 67
+            {
+                "name": "2 star",
+                "count": 67
             },
-            { "name": "3 star", "count": 210
+            {
+                "name": "3 star",
+                "count": 210
             },
-            { "name": "4 star", "count": 560
+            {
+                "name": "4 star",
+                "count": 560
             },
-            { "name": "5 star", "count": 568
+            {
+                "name": "5 star",
+                "count": 568
             }
         ]
     },
     {
-    "id": 2,
-    "image": "https://img77.uenicdn.com/image/upload/v1610376244/business/9400ac8f-d830-42bf-9223-2cc13786c582/Wallpaper-2jpg.jpg",
-    "title": "PhotoMaster Studio",
-    "companyName": "PixelCraft Labs",
-    "description": "PhotoMaster Studio is a professional-grade photo editing application built for photographers, designers, and social media creators. It features AI-based auto-enhancement, background removal, layer editing, and one-click color correction tools. Users can create digital art, retouch portraits, and optimize images for web publishing with ease. The app also supports RAW formats, HDR processing, and batch editing for high-volume projects. With a sleek UI and cloud sync functionality, PhotoMaster Studio ensures your creative workflow remains efficient and accessible from anywhere.",
-    "size": 112.7,
-    "reviews": 3800,
-    "ratingAvg": 4.8,
-    "downloads": 187000,
-    "ratings": [
-            { "name": "1 star", "count": 96
+        "id": 2,
+        "image": "https://img77.uenicdn.com/image/upload/v1610376244/business/9400ac8f-d830-42bf-9223-2cc13786c582/Wallpaper-2jpg.jpg",
+        "title": "PhotoMaster Studio",
+        "companyName": "PixelCraft Labs",
+        "description": "PhotoMaster Studio is a professional-grade photo editing application built for photographers, designers, and social media creators. It features AI-based auto-enhancement, background removal, layer editing, and one-click color correction tools. Users can create digital art, retouch portraits, and optimize images for web publishing with ease. The app also supports RAW formats, HDR processing, and batch editing for high-volume projects. With a sleek UI and cloud sync functionality, PhotoMaster Studio ensures your creative workflow remains efficient and accessible from anywhere.",
+        "size": 112.7,
+        "ratingAvg": 4.8,
+        "reviews": "10.4K",
+        "downloads": "5.6M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 96
             },
-            { "name": "2 star", "count": 142
+            {
+                "name": "2 star",
+                "count": 142
             },
-            { "name": "3 star", "count": 370
+            {
+                "name": "3 star",
+                "count": 370
             },
-            { "name": "4 star", "count": 950
+            {
+                "name": "4 star",
+                "count": 950
             },
-            { "name": "5 star", "count": 2242
+            {
+                "name": "5 star",
+                "count": 2242
             }
         ]
     },
     {
-    "id": 3,
-    "image": "https://m.media-amazon.com/images/S/abs-image-upload-na/7/AmazonStores/A2EUQ1WTGCTBG2/d85698abf988f3148b49b8b1a7a47d68.w1000.h1000.jpg",
-    "title": "FitTrack Pro",
-    "companyName": "NovaHealth",
-    "description": "FitTrack Pro is an advanced fitness tracking application that combines smart analytics, personalized training plans, and nutrition tracking to help users achieve their health goals. It monitors daily steps, heart rate, sleep quality, and calories burned through wearable device integration. The app also includes AI-driven recommendations that adjust workouts based on progress. With community challenges, leaderboards, and motivational badges, FitTrack Pro keeps users engaged and consistent in their fitness journey. Whether you’re a beginner or a professional athlete, this app offers tailored guidance for every fitness level.",
-    "size": 76.4,
-    "reviews": 3200,
-    "ratingAvg": 4.5,
-    "downloads": 210000,
-    "ratings": [
-            { "name": "1 star", "count": 115
+        "id": 3,
+        "image": "https://m.media-amazon.com/images/S/abs-image-upload-na/7/AmazonStores/A2EUQ1WTGCTBG2/d85698abf988f3148b49b8b1a7a47d68.w1000.h1000.jpg",
+        "title": "FitTrack Pro",
+        "companyName": "NovaHealth",
+        "description": "FitTrack Pro is an advanced fitness tracking application that combines smart analytics, personalized training plans, and nutrition tracking to help users achieve their health goals. It monitors daily steps, heart rate, sleep quality, and calories burned through wearable device integration. The app also includes AI-driven recommendations that adjust workouts based on progress. With community challenges, leaderboards, and motivational badges, FitTrack Pro keeps users engaged and consistent in their fitness journey. Whether you’re a beginner or a professional athlete, this app offers tailored guidance for every fitness level.",
+        "size": 76.4,
+        "ratingAvg": 4.5,
+        "reviews": "10.4K",
+        "downloads": "5.6M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 115
             },
-            { "name": "2 star", "count": 165
+            {
+                "name": "2 star",
+                "count": 165
             },
-            { "name": "3 star", "count": 420
+            {
+                "name": "3 star",
+                "count": 420
             },
-            { "name": "4 star", "count": 970
+            {
+                "name": "4 star",
+                "count": 970
             },
-            { "name": "5 star", "count": 1530
+            {
+                "name": "5 star",
+                "count": 1530
             }
         ]
     },
     {
-    "id": 4,
-    "image": "https://media.licdn.com/dms/image/v2/C4E0BAQEXUt8UL6VLFw/company-logo_200_200/company-logo_200_200/0/1636041086373/codesphere_inc_logo?e=2147483647&v=beta&t=jNrQtURutxSOQ4sFhKGJtk_Dm6M3HGA-y6zwh7G05ww",
-    "title": "CodeSphere IDE",
-    "companyName": "TechForge",
-    "description": "CodeSphere IDE is a modern, lightweight development environment built for web, mobile, and backend developers. It features real-time code collaboration, syntax highlighting for over 40 languages, Git integration, and AI-powered code completion. Developers can deploy directly to cloud providers and preview applications instantly within the workspace. The built-in debugger and performance profiler make testing faster and more accurate. With extensive plugin support and keyboard shortcuts, CodeSphere enhances developer productivity and streamlines project management from start to finish.",
-    "size": 215.9,
-    "reviews": 2100,
-    "ratingAvg": 4.7,
-    "downloads": 88000,
-    "ratings": [
-            { "name": "1 star", "count": 62
+        "id": 4,
+        "image": "https://media.licdn.com/dms/image/v2/C4E0BAQEXUt8UL6VLFw/company-logo_200_200/company-logo_200_200/0/1636041086373/codesphere_inc_logo?e=2147483647&v=beta&t=jNrQtURutxSOQ4sFhKGJtk_Dm6M3HGA-y6zwh7G05ww",
+        "title": "CodeSphere IDE",
+        "companyName": "TechForge",
+        "description": "CodeSphere IDE is a modern, lightweight development environment built for web, mobile, and backend developers. It features real-time code collaboration, syntax highlighting for over 40 languages, Git integration, and AI-powered code completion. Developers can deploy directly to cloud providers and preview applications instantly within the workspace. The built-in debugger and performance profiler make testing faster and more accurate. With extensive plugin support and keyboard shortcuts, CodeSphere enhances developer productivity and streamlines project management from start to finish.",
+        "size": 215.9,
+        "ratingAvg": 4.7,
+        "reviews": "540K",
+        "downloads": "40M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 62
             },
-            { "name": "2 star", "count": 97
+            {
+                "name": "2 star",
+                "count": 97
             },
-            { "name": "3 star", "count": 280
+            {
+                "name": "3 star",
+                "count": 280
             },
-            { "name": "4 star", "count": 670
+            {
+                "name": "4 star",
+                "count": 670
             },
-            { "name": "5 star", "count": 991
+            {
+                "name": "5 star",
+                "count": 991
             }
         ]
     },
     {
-    "id": 5,
-    "image": "https://r2.erweima.ai/i/PynOr3wQRMOhQKwL2uzSRg.png",
-    "title": "LearnMate Academy",
-    "companyName": "EduWave Technologies",
-    "description": "LearnMate Academy is a complete e-learning platform designed for students, professionals, and educators. It offers interactive video lectures, quizzes, progress tracking, and AI-powered course recommendations. Teachers can create courses, manage assignments, and engage learners through live Q&A sessions. The platform supports multiple languages and integrates with Google Classroom and Zoom for a seamless teaching experience. With gamified learning, students earn points and badges as they complete lessons, making education more engaging and rewarding.",
-    "size": 154.2,
-    "reviews": 5700,
-    "ratingAvg": 4.9,
-    "downloads": 540000,
-    "ratings": [
-            { "name": "1 star", "count": 120
+        "id": 5,
+        "image": "https://r2.erweima.ai/i/PynOr3wQRMOhQKwL2uzSRg.png",
+        "title": "LearnMate Academy",
+        "companyName": "EduWave Technologies",
+        "description": "LearnMate Academy is a complete e-learning platform designed for students, professionals, and educators. It offers interactive video lectures, quizzes, progress tracking, and AI-powered course recommendations. Teachers can create courses, manage assignments, and engage learners through live Q&A sessions. The platform supports multiple languages and integrates with Google Classroom and Zoom for a seamless teaching experience. With gamified learning, students earn points and badges as they complete lessons, making education more engaging and rewarding.",
+        "size": 154.2,
+        "ratingAvg": 4.9,
+        "reviews": "92K",
+        "downloads": "8M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120
             },
-            { "name": "2 star", "count": 190
+            {
+                "name": "2 star",
+                "count": 190
             },
-            { "name": "3 star", "count": 510
+            {
+                "name": "3 star",
+                "count": 510
             },
-            { "name": "4 star", "count": 1300
+            {
+                "name": "4 star",
+                "count": 1300
             },
-            { "name": "5 star", "count": 3580
+            {
+                "name": "5 star",
+                "count": 3580
             }
         ]
     },
     {
-    "id": 6,
-    "image": "https://budgetwisestore.com/wp-content/uploads/2024/05/budgetwise-logo-square.jpg?w=200",
-    "title": "BudgetWise",
-    "companyName": "Finexus Global",
-    "description": "BudgetWise is a personal finance and budgeting app that helps users track expenses, set financial goals, and analyze spending habits through beautiful visual reports. It automatically categorizes transactions, provides real-time bank syncing, and offers smart alerts for upcoming bills and low balances. BudgetWise empowers users to make informed decisions about their money through monthly breakdowns and predictive savings analytics. It’s perfect for individuals, families, or small business owners aiming for financial control and peace of mind.",
-    "size": 42.1,
-    "reviews": 2870,
-    "ratingAvg": 4.4,
-    "downloads": 76000,
-    "ratings": [
-            { "name": "1 star", "count": 132
+        "id": 6,
+        "image": "https://budgetwisestore.com/wp-content/uploads/2024/05/budgetwise-logo-square.jpg?w=200",
+        "title": "BudgetWise",
+        "companyName": "Finexus Global",
+        "description": "BudgetWise is a personal finance and budgeting app that helps users track expenses, set financial goals, and analyze spending habits through beautiful visual reports. It automatically categorizes transactions, provides real-time bank syncing, and offers smart alerts for upcoming bills and low balances. BudgetWise empowers users to make informed decisions about their money through monthly breakdowns and predictive savings analytics. It’s perfect for individuals, families, or small business owners aiming for financial control and peace of mind.",
+        "size": 42.1,
+        "ratingAvg": 4.4,
+        "reviews": "2.3K",
+        "downloads": "230K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 132
             },
-            { "name": "2 star", "count": 168
+            {
+                "name": "2 star",
+                "count": 168
             },
-            { "name": "3 star", "count": 430
+            {
+                "name": "3 star",
+                "count": 430
             },
-            { "name": "4 star", "count": 960
+            {
+                "name": "4 star",
+                "count": 960
             },
-            { "name": "5 star", "count": 1180
+            {
+                "name": "5 star",
+                "count": 1180
             }
         ]
     },
     {
-    "id": 7,
-    "image": "https://www.travelmate.com.bd/wp-content/uploads/2023/11/logo_graph.png",
-    "title": "TravelMate Bangladesh",
-    "companyName": "GlobeTrek",
-    "description": "TravelMate Bangladesh is your ultimate travel companion app, featuring personalized trip planning, real-time itinerary management, and local experience recommendations powered by AI. It offers offline maps, hotel booking integration, and emergency assistance features. The app curates destination guides with cultural insights, hidden gems, and safety tips. Travelers can create journals, share photos, and track visited places on an interactive world map. Whether you’re backpacking or traveling for business, TravelMate enhances every journey with convenience and inspiration.",
-    "size": 88.6,
-    "reviews": 4890,
-    "ratingAvg": 4.6,
-    "downloads": 305000,
-    "ratings": [
-            { "name": "1 star", "count": 158
+        "id": 7,
+        "image": "https://www.travelmate.com.bd/wp-content/uploads/2023/11/logo_graph.png",
+        "title": "TravelMate Bangladesh",
+        "companyName": "GlobeTrek",
+        "description": "TravelMate Bangladesh is your ultimate travel companion app, featuring personalized trip planning, real-time itinerary management, and local experience recommendations powered by AI. It offers offline maps, hotel booking integration, and emergency assistance features. The app curates destination guides with cultural insights, hidden gems, and safety tips. Travelers can create journals, share photos, and track visited places on an interactive world map. Whether you’re backpacking or traveling for business, TravelMate enhances every journey with convenience and inspiration.",
+        "size": 88.6,
+        "ratingAvg": 4.6,
+        "reviews": "1.1M",
+        "downloads": "150M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 158
             },
-            { "name": "2 star", "count": 210
+            {
+                "name": "2 star",
+                "count": 210
             },
-            { "name": "3 star", "count": 560
+            {
+                "name": "3 star",
+                "count": 560
             },
-            { "name": "4 star", "count": 1400
+            {
+                "name": "4 star",
+                "count": 1400
             },
-            { "name": "5 star", "count": 2562
+            {
+                "name": "5 star",
+                "count": 2562
             }
         ]
     },
     {
-    "id": 8,
-    "image": "https://static.vecteezy.com/system/resources/previews/004/989/550/non_2x/meditation-in-the-blue-circle-free-vector.jpg",
-    "title": "CalmSpace Meditation",
-    "companyName": "ZenMind Studios",
-    "description": "CalmSpace Meditation helps users achieve inner peace and mindfulness through guided meditations, sleep sounds, and breathing exercises. It includes tailored programs for stress relief, focus improvement, and better sleep quality. Users can track mood progress and set daily mindfulness reminders. With beautiful visuals, relaxing music, and personalized meditation paths, CalmSpace offers a holistic wellness experience for both beginners and seasoned practitioners seeking emotional balance and relaxation.",
-    "size": 61.8,
-    "reviews": 4200,
-    "ratingAvg": 4.8,
-    "downloads": 490000,
-    "ratings": [
-            { "name": "1 star", "count": 85
+        "id": 8,
+        "image": "https://static.vecteezy.com/system/resources/previews/004/989/550/non_2x/meditation-in-the-blue-circle-free-vector.jpg",
+        "title": "CalmSpace Meditation",
+        "companyName": "ZenMind Studios",
+        "description": "CalmSpace Meditation helps users achieve inner peace and mindfulness through guided meditations, sleep sounds, and breathing exercises. It includes tailored programs for stress relief, focus improvement, and better sleep quality. Users can track mood progress and set daily mindfulness reminders. With beautiful visuals, relaxing music, and personalized meditation paths, CalmSpace offers a holistic wellness experience for both beginners and seasoned practitioners seeking emotional balance and relaxation.",
+        "size": 61.8,
+        "ratingAvg": 4.8,
+        "reviews": "76K",
+        "downloads": "6.4M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 85
             },
-            { "name": "2 star", "count": 135
+            {
+                "name": "2 star",
+                "count": 135
             },
-            { "name": "3 star", "count": 340
+            {
+                "name": "3 star",
+                "count": 340
             },
-            { "name": "4 star", "count": 1030
+            {
+                "name": "4 star",
+                "count": 1030
             },
-            { "name": "5 star", "count": 2610
+            {
+                "name": "5 star",
+                "count": 2610
             }
         ]
     },
     {
-    "id": 9,
-    "image": "https://via.placeholder.com/300x200.png?text=App+9",
-    "title": "SafeHome Security",
-    "companyName": "SecureLink Systems",
-    "description": "SafeHome Security provides smart home monitoring through real-time camera feeds, instant alerts, and AI-based motion detection. It connects seamlessly with IoT devices, allowing users to control locks, lights, and alarms remotely. The app’s encrypted cloud storage ensures your footage stays secure. With geofencing features and emergency call integration, SafeHome gives homeowners peace of mind whether they’re home or away. The intuitive dashboard makes it easy to monitor multiple locations at once.",
-    "size": 97.4,
-    "reviews": 2300,
-    "ratingAvg": 4.5,
-    "downloads": 132000,
-    "ratings": [
-            { "name": "1 star", "count": 76
+        "id": 9,
+        "image": "https://via.placeholder.com/300x200.png?text=App+9",
+        "title": "SafeHome Security",
+        "companyName": "SecureLink Systems",
+        "description": "SafeHome Security provides smart home monitoring through real-time camera feeds, instant alerts, and AI-based motion detection. It connects seamlessly with IoT devices, allowing users to control locks, lights, and alarms remotely. The app’s encrypted cloud storage ensures your footage stays secure. With geofencing features and emergency call integration, SafeHome gives homeowners peace of mind whether they’re home or away. The intuitive dashboard makes it easy to monitor multiple locations at once.",
+        "size": 97.4,
+        "ratingAvg": 4.5,
+        "reviews": "3.8K",
+        "downloads": "640K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 76
             },
-            { "name": "2 star", "count": 120
+            {
+                "name": "2 star",
+                "count": 120
             },
-            { "name": "3 star", "count": 300
+            {
+                "name": "3 star",
+                "count": 300
             },
-            { "name": "4 star", "count": 680
+            {
+                "name": "4 star",
+                "count": 680
             },
-            { "name": "5 star", "count": 1124
+            {
+                "name": "5 star",
+                "count": 1124
             }
         ]
     },
     {
-    "id": 10,
-    "image": "https://via.placeholder.com/300x200.png?text=App+10",
-    "title": "NoteWave",
-    "companyName": "MindSync Labs",
-    "description": "NoteWave is an innovative note-taking and productivity platform designed for students, writers, and professionals. It combines handwriting recognition, AI summarization, and voice transcription in one place. Users can organize notes into workspaces, sync across devices, and collaborate in real-time. Its distraction-free interface, offline mode, and dark theme make it perfect for focused writing sessions. With end-to-end encryption and smart tagging, NoteWave ensures your ideas are always safe and easily accessible.",
-    "size": 84.3,
-    "reviews": 3950,
-    "ratingAvg": 4.7,
-    "downloads": 250000,
-    "ratings": [
-            { "name": "1 star", "count": 102
+        "id": 10,
+        "image": "https://via.placeholder.com/300x200.png?text=App+10",
+        "title": "NoteWave",
+        "companyName": "MindSync Labs",
+        "description": "NoteWave is an innovative note-taking and productivity platform designed for students, writers, and professionals. It combines handwriting recognition, AI summarization, and voice transcription in one place. Users can organize notes into workspaces, sync across devices, and collaborate in real-time. Its distraction-free interface, offline mode, and dark theme make it perfect for focused writing sessions. With end-to-end encryption and smart tagging, NoteWave ensures your ideas are always safe and easily accessible.",
+        "size": 84.3,
+        "ratingAvg": 4.7,
+        "reviews": "27K",
+        "downloads": "2.3M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 102
             },
-            { "name": "2 star", "count": 155
+            {
+                "name": "2 star",
+                "count": 155
             },
-            { "name": "3 star", "count": 410
+            {
+                "name": "3 star",
+                "count": 410
             },
-            { "name": "4 star", "count": 890
+            {
+                "name": "4 star",
+                "count": 890
             },
-            { "name": "5 star", "count": 2393
+            {
+                "name": "5 star",
+                "count": 2393
             }
         ]
     },
     {
-    "id": 11,
-    "image": "https://via.placeholder.com/300x200.png?text=App+11",
-    "title": "StreamBox Media",
-    "companyName": "VisionPlay",
-    "description": "StreamBox Media is a versatile streaming platform for movies, TV shows, and live events. With personalized recommendations, offline downloads, and multi-device support, users can enjoy high-quality entertainment anywhere. The platform also offers curated playlists, parental controls, and adaptive streaming to optimize video quality based on network conditions. Its sleek interface and intuitive navigation make discovering new content seamless and enjoyable for all users.",
-    "size": 110.5,
-    "reviews": 5900,
-    "ratingAvg": 4.8,
-    "downloads": 520000,
-    "ratings": [
-            { "name": "1 star", "count": 190
+        "id": 11,
+        "image": "https://via.placeholder.com/300x200.png?text=App+11",
+        "title": "StreamBox Media",
+        "companyName": "VisionPlay",
+        "description": "StreamBox Media is a versatile streaming platform for movies, TV shows, and live events. With personalized recommendations, offline downloads, and multi-device support, users can enjoy high-quality entertainment anywhere. The platform also offers curated playlists, parental controls, and adaptive streaming to optimize video quality based on network conditions. Its sleek interface and intuitive navigation make discovering new content seamless and enjoyable for all users.",
+        "size": 110.5,
+        "ratingAvg": 4.8,
+        "reviews": "1.5K",
+        "downloads": "92K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 190
             },
-            { "name": "2 star", "count": 210
+            {
+                "name": "2 star",
+                "count": 210
             },
-            { "name": "3 star", "count": 360
+            {
+                "name": "3 star",
+                "count": 360
             },
-            { "name": "4 star", "count": 1050
+            {
+                "name": "4 star",
+                "count": 1050
             },
-            { "name": "5 star", "count": 4090
+            {
+                "name": "5 star",
+                "count": 4090
             }
         ]
     },
     {
-    "id": 12,
-    "image": "https://via.placeholder.com/300x200.png?text=App+12",
-    "title": "CryptoVault",
-    "companyName": "BlockSecure",
-    "description": "CryptoVault is a comprehensive cryptocurrency portfolio management tool that allows users to track multiple wallets, monitor market prices, and execute trades securely. It features real-time notifications, advanced analytics, and historical performance tracking. The platform prioritizes security with multi-factor authentication, cold storage integration, and encrypted data handling. Ideal for beginners and seasoned investors alike, CryptoVault simplifies digital asset management and empowers users with insights to make informed decisions.",
-    "size": 78.2,
-    "reviews": 2700,
-    "ratingAvg": 4.4,
-    "downloads": 110000,
-    "ratings": [
-            { "name": "1 star", "count": 120
+        "id": 12,
+        "image": "https://via.placeholder.com/300x200.png?text=App+12",
+        "title": "CryptoVault",
+        "companyName": "BlockSecure",
+        "description": "CryptoVault is a comprehensive cryptocurrency portfolio management tool that allows users to track multiple wallets, monitor market prices, and execute trades securely. It features real-time notifications, advanced analytics, and historical performance tracking. The platform prioritizes security with multi-factor authentication, cold storage integration, and encrypted data handling. Ideal for beginners and seasoned investors alike, CryptoVault simplifies digital asset management and empowers users with insights to make informed decisions.",
+        "size": 78.2,
+        "ratingAvg": 4.4,
+        "reviews": "10.4K",
+        "downloads": "5.6M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120
             },
-            { "name": "2 star", "count": 170
+            {
+                "name": "2 star",
+                "count": 170
             },
-            { "name": "3 star", "count": 250
+            {
+                "name": "3 star",
+                "count": 250
             },
-            { "name": "4 star", "count": 670
+            {
+                "name": "4 star",
+                "count": 670
             },
-            { "name": "5 star", "count": 1490
+            {
+                "name": "5 star",
+                "count": 1490
             }
         ]
     },
     {
-    "id": 13,
-    "image": "https://via.placeholder.com/300x200.png?text=App+13",
-    "title": "QuickMail",
-    "companyName": "Mailify",
-    "description": "QuickMail is a fast and secure email client designed to simplify communication for professionals and businesses. With AI-assisted sorting, smart inbox categorization, and customizable filters, it ensures important messages are never missed. Users can schedule emails, integrate with calendar apps, and collaborate on shared inboxes. QuickMail also supports encrypted messaging, attachment previews, and offline mode, offering a seamless email experience across multiple devices.",
-    "size": 58.4,
-    "reviews": 1450,
-    "ratingAvg": 4.2,
-    "downloads": 60000,
-    "ratings": [
-            { "name": "1 star", "count": 100
+        "id": 13,
+        "image": "https://via.placeholder.com/300x200.png?text=App+13",
+        "title": "QuickMail",
+        "companyName": "Mailify",
+        "description": "QuickMail is a fast and secure email client designed to simplify communication for professionals and businesses. With AI-assisted sorting, smart inbox categorization, and customizable filters, it ensures important messages are never missed. Users can schedule emails, integrate with calendar apps, and collaborate on shared inboxes. QuickMail also supports encrypted messaging, attachment previews, and offline mode, offering a seamless email experience across multiple devices.",
+        "size": 58.4,
+        "ratingAvg": 4.2,
+        "reviews": "10.4K",
+        "downloads": "5.6M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 100
             },
-            { "name": "2 star", "count": 160
+            {
+                "name": "2 star",
+                "count": 160
             },
-            { "name": "3 star", "count": 210
+            {
+                "name": "3 star",
+                "count": 210
             },
-            { "name": "4 star", "count": 410
+            {
+                "name": "4 star",
+                "count": 410
             },
-            { "name": "5 star", "count": 570
+            {
+                "name": "5 star",
+                "count": 570
             }
         ]
     },
     {
-    "id": 14,
-    "image": "https://via.placeholder.com/300x200.png?text=App+14",
-    "title": "ShopMate",
-    "companyName": "BuySmart",
-    "description": "ShopMate is an all-in-one shopping assistant that helps users discover deals, compare prices, and manage online purchases efficiently. It features product scanning, wishlist management, and price drop notifications to save both time and money. Users can track deliveries, read reviews, and receive personalized recommendations based on their shopping preferences. With secure payment options and multi-platform syncing, ShopMate provides a smooth and reliable shopping experience.",
-    "size": 75.6,
-    "reviews": 2400,
-    "ratingAvg": 4.4,
-    "downloads": 98000,
-    "ratings": [
-            { "name": "1 star", "count": 120
+        "id": 14,
+        "image": "https://via.placeholder.com/300x200.png?text=App+14",
+        "title": "ShopMate",
+        "companyName": "BuySmart",
+        "description": "ShopMate is an all-in-one shopping assistant that helps users discover deals, compare prices, and manage online purchases efficiently. It features product scanning, wishlist management, and price drop notifications to save both time and money. Users can track deliveries, read reviews, and receive personalized recommendations based on their shopping preferences. With secure payment options and multi-platform syncing, ShopMate provides a smooth and reliable shopping experience.",
+        "size": 75.6,
+        "ratingAvg": 4.4,
+        "reviews": "1.1M",
+        "downloads": "150M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 120
             },
-            { "name": "2 star", "count": 160
+            {
+                "name": "2 star",
+                "count": 160
             },
-            { "name": "3 star", "count": 250
+            {
+                "name": "3 star",
+                "count": 250
             },
-            { "name": "4 star", "count": 610
+            {
+                "name": "4 star",
+                "count": 610
             },
-            { "name": "5 star", "count": 1260
+            {
+                "name": "5 star",
+                "count": 1260
             }
         ]
     },
     {
-    "id": 15,
-    "image": "https://via.placeholder.com/300x200.png?text=App+15",
-    "title": "ChatEase",
-    "companyName": "TalkNet",
-    "description": "ChatEase is a modern messaging platform offering secure, instant communication with rich multimedia support. It supports group chats, video calls, file sharing, and AI-powered chat suggestions. End-to-end encryption ensures conversations remain private, while cloud backups keep data safe across devices. ChatEase also includes smart notifications, themes, and integration with productivity tools, making it perfect for both personal and professional communication.",
-    "size": 68.9,
-    "reviews": 5200,
-    "ratingAvg": 4.5,
-    "downloads": 400000,
-    "ratings": [
-            { "name": "1 star", "count": 280
+        "id": 15,
+        "image": "https://via.placeholder.com/300x200.png?text=App+15",
+        "title": "ChatEase",
+        "companyName": "TalkNet",
+        "description": "ChatEase is a modern messaging platform offering secure, instant communication with rich multimedia support. It supports group chats, video calls, file sharing, and AI-powered chat suggestions. End-to-end encryption ensures conversations remain private, while cloud backups keep data safe across devices. ChatEase also includes smart notifications, themes, and integration with productivity tools, making it perfect for both personal and professional communication.",
+        "size": 68.9,
+        "ratingAvg": 4.5,
+        "reviews": "27K",
+        "downloads": "2.3M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 280
             },
-            { "name": "2 star", "count": 310
+            {
+                "name": "2 star",
+                "count": 310
             },
-            { "name": "3 star", "count": 520
+            {
+                "name": "3 star",
+                "count": 520
             },
-            { "name": "4 star", "count": 1200
+            {
+                "name": "4 star",
+                "count": 1200
             },
-            { "name": "5 star", "count": 2890
+            {
+                "name": "5 star",
+                "count": 2890
             }
         ]
     },
     {
-    "id": 16,
-    "image": "https://via.placeholder.com/300x200.png?text=App+16",
-    "title": "DocuScan",
-    "companyName": "ScanPro",
-    "description": "DocuScan transforms your mobile device into a powerful document scanner. It supports scanning in PDF and image formats, OCR text recognition, and cloud storage integration. Users can batch scan, annotate documents, and share files instantly. DocuScan ensures high-quality scans even under challenging lighting conditions and offers auto-cropping, perspective correction, and color enhancements. It is perfect for students, professionals, and anyone who needs to digitize paperwork quickly and efficiently.",
-    "size": 44.7,
-    "reviews": 1180,
-    "ratingAvg": 4.3,
-    "downloads": 54000,
-    "ratings": [
-            { "name": "1 star", "count": 70
+        "id": 16,
+        "image": "https://via.placeholder.com/300x200.png?text=App+16",
+        "title": "DocuScan",
+        "companyName": "ScanPro",
+        "description": "DocuScan transforms your mobile device into a powerful document scanner. It supports scanning in PDF and image formats, OCR text recognition, and cloud storage integration. Users can batch scan, annotate documents, and share files instantly. DocuScan ensures high-quality scans even under challenging lighting conditions and offers auto-cropping, perspective correction, and color enhancements. It is perfect for students, professionals, and anyone who needs to digitize paperwork quickly and efficiently.",
+        "size": 44.7,
+        "ratingAvg": 4.3,
+        "reviews": "92K",
+        "downloads": "8M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 70
             },
-            { "name": "2 star", "count": 90
+            {
+                "name": "2 star",
+                "count": 90
             },
-            { "name": "3 star", "count": 160
+            {
+                "name": "3 star",
+                "count": 160
             },
-            { "name": "4 star", "count": 340
+            {
+                "name": "4 star",
+                "count": 340
             },
-            { "name": "5 star", "count": 520
+            {
+                "name": "5 star",
+                "count": 520
             }
         ]
     },
     {
-    "id": 17,
-    "image": "https://via.placeholder.com/300x200.png?text=App+17",
-    "title": "HealthMate",
-    "companyName": "WellnessLab",
-    "description": "HealthMate is a comprehensive health monitoring platform that tracks vital signs, daily activity, and lifestyle habits. It offers personalized recommendations for diet, exercise, and sleep patterns. Users can log medical history, set reminders for medication, and share reports with healthcare providers. HealthMate’s intuitive dashboards make it easy to understand trends over time, empowering users to make informed decisions about their health. With integration for wearable devices, HealthMate provides real-time insights and alerts to improve overall well-being.",
-    "size": 85.3,
-    "reviews": 2450,
-    "ratingAvg": 4.6,
-    "downloads": 125000,
-    "ratings": [
-            { "name": "1 star", "count": 110
+        "id": 17,
+        "image": "https://via.placeholder.com/300x200.png?text=App+17",
+        "title": "HealthMate",
+        "companyName": "WellnessLab",
+        "description": "HealthMate is a comprehensive health monitoring platform that tracks vital signs, daily activity, and lifestyle habits. It offers personalized recommendations for diet, exercise, and sleep patterns. Users can log medical history, set reminders for medication, and share reports with healthcare providers. HealthMate’s intuitive dashboards make it easy to understand trends over time, empowering users to make informed decisions about their health. With integration for wearable devices, HealthMate provides real-time insights and alerts to improve overall well-being.",
+        "size": 85.3,
+        "ratingAvg": 4.6,
+        "reviews": "540K",
+        "downloads": "40M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 110
             },
-            { "name": "2 star", "count": 130
+            {
+                "name": "2 star",
+                "count": 130
             },
-            { "name": "3 star", "count": 210
+            {
+                "name": "3 star",
+                "count": 210
             },
-            { "name": "4 star", "count": 580
+            {
+                "name": "4 star",
+                "count": 580
             },
-            { "name": "5 star", "count": 1420
+            {
+                "name": "5 star",
+                "count": 1420
             }
         ]
     },
     {
-    "id": 18,
-    "image": "https://via.placeholder.com/300x200.png?text=App+18",
-    "title": "TravelNow",
-    "companyName": "WanderHub",
-    "description": "TravelNow is a complete travel planning and booking application, offering hotel reservations, flight tracking, and curated activity suggestions. It provides offline maps, itinerary management, and AI-driven recommendations based on user preferences. Travelers can explore reviews, discover hidden destinations, and share experiences with the community. TravelNow also includes currency converters, local transport guides, and safety alerts, ensuring a seamless and stress-free travel experience anywhere in the world.",
-    "size": 93.8,
-    "reviews": 3000,
-    "ratingAvg": 4.5,
-    "downloads": 160000,
-    "ratings": [
-            { "name": "1 star", "count": 160
+        "id": 18,
+        "image": "https://via.placeholder.com/300x200.png?text=App+18",
+        "title": "TravelNow",
+        "companyName": "WanderHub",
+        "description": "TravelNow is a complete travel planning and booking application, offering hotel reservations, flight tracking, and curated activity suggestions. It provides offline maps, itinerary management, and AI-driven recommendations based on user preferences. Travelers can explore reviews, discover hidden destinations, and share experiences with the community. TravelNow also includes currency converters, local transport guides, and safety alerts, ensuring a seamless and stress-free travel experience anywhere in the world.",
+        "size": 93.8,
+        "ratingAvg": 4.5,
+        "reviews": "92K",
+        "downloads": "8M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 160
             },
-            { "name": "2 star", "count": 190
+            {
+                "name": "2 star",
+                "count": 190
             },
-            { "name": "3 star", "count": 310
+            {
+                "name": "3 star",
+                "count": 310
             },
-            { "name": "4 star", "count": 820
+            {
+                "name": "4 star",
+                "count": 820
             },
-            { "name": "5 star", "count": 1520
+            {
+                "name": "5 star",
+                "count": 1520
             }
         ]
     },
     {
-    "id": 19,
-    "image": "https://via.placeholder.com/300x200.png?text=App+19",
-    "title": "MindCalm",
-    "companyName": "Tranquil Labs",
-    "description": "MindCalm is a mindfulness and meditation app designed to reduce stress and enhance mental well-being. It offers guided meditations, ambient sounds, and sleep programs tailored to individual needs. Users can track their mindfulness progress, set reminders, and participate in community challenges. MindCalm also provides mood tracking and AI-generated insights to help users understand emotional patterns. Perfect for beginners and experienced meditators, it helps cultivate a calmer, more focused mind in daily life.",
-    "size": 47.9,
-    "reviews": 1650,
-    "ratingAvg": 4.7,
-    "downloads": 65000,
-    "ratings": [
-            { "name": "1 star", "count": 60
+        "id": 19,
+        "image": "https://via.placeholder.com/300x200.png?text=App+19",
+        "title": "MindCalm",
+        "companyName": "Tranquil Labs",
+        "description": "MindCalm is a mindfulness and meditation app designed to reduce stress and enhance mental well-being. It offers guided meditations, ambient sounds, and sleep programs tailored to individual needs. Users can track their mindfulness progress, set reminders, and participate in community challenges. MindCalm also provides mood tracking and AI-generated insights to help users understand emotional patterns. Perfect for beginners and experienced meditators, it helps cultivate a calmer, more focused mind in daily life.",
+        "size": 47.9,
+        "ratingAvg": 4.7,
+        "reviews": "2.3K",
+        "downloads": "230K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
             },
-            { "name": "2 star", "count": 70
+            {
+                "name": "2 star",
+                "count": 70
             },
-            { "name": "3 star", "count": 150
+            {
+                "name": "3 star",
+                "count": 150
             },
-            { "name": "4 star", "count": 430
+            {
+                "name": "4 star",
+                "count": 430
             },
-            { "name": "5 star", "count": 940
+            {
+                "name": "5 star",
+                "count": 940
             }
         ]
     },
     {
-    "id": 20,
-    "image": "https://via.placeholder.com/300x200.png?text=App+20",
-    "title": "FoodSnap",
-    "companyName": "GourmetSoft",
-    "description": "FoodSnap is a smart food discovery and recipe application that allows users to find recipes by scanning ingredients, creating meal plans, and exploring nutritional information. It offers step-by-step cooking instructions, video tutorials, and AI-based suggestions tailored to dietary preferences. Users can track calorie intake, create shopping lists, and share favorite recipes with friends. FoodSnap transforms everyday cooking into an engaging and educational experience while promoting healthier eating habits.",
-    "size": 60.7,
-    "reviews": 1340,
-    "ratingAvg": 4.4,
-    "downloads": 72000,
-    "ratings": [
-            { "name": "1 star", "count": 80
+        "id": 20,
+        "image": "https://via.placeholder.com/300x200.png?text=App+20",
+        "title": "FoodSnap",
+        "companyName": "GourmetSoft",
+        "description": "FoodSnap is a smart food discovery and recipe application that allows users to find recipes by scanning ingredients, creating meal plans, and exploring nutritional information. It offers step-by-step cooking instructions, video tutorials, and AI-based suggestions tailored to dietary preferences. Users can track calorie intake, create shopping lists, and share favorite recipes with friends. FoodSnap transforms everyday cooking into an engaging and educational experience while promoting healthier eating habits.",
+        "size": 60.7,
+        "ratingAvg": 4.4,
+        "reviews": "1.5K",
+        "downloads": "92K",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 80
             },
-            { "name": "2 star", "count": 110
+            {
+                "name": "2 star",
+                "count": 110
             },
-            { "name": "3 star", "count": 190
+            {
+                "name": "3 star",
+                "count": 190
             },
-            { "name": "4 star", "count": 410
+            {
+                "name": "4 star",
+                "count": 410
             },
-            { "name": "5 star", "count": 550
+            {
+                "name": "5 star",
+                "count": 550
             }
         ]
     }

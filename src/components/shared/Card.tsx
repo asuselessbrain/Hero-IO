@@ -1,9 +1,10 @@
+import { Link } from 'react-router';
 import downloads from '../../assets/images/icon-downloads.png';
 import ratting from '../../assets/images/icon-ratings.png';
 import type { App } from '../../pages/Home';
 const Card = ({app}: {app: App}) => {
     return (
-        <div className="bg-white p-4 rounded-lg shadow-md">
+        <Link to={`/apps/${app.id}`} className="bg-white p-4 rounded-lg shadow-md">
             <img src={app.image} className="h-80 w-80 object-fill rounded-lg" alt={app.title} />
             <h3 className="text-lg font-semibold mt-4">{app.title}</h3>
             <div className='flex items-center justify-between mt-4'>
@@ -16,7 +17,7 @@ const Card = ({app}: {app: App}) => {
                     <p>{app.ratingAvg}</p>
                 </div>  
             </div>           
-        </div>
+        </Link>
     );
 };
 
