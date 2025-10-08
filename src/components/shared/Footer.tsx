@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="flex items-center gap-2">
                         <img src={logo} className="h-16 w-16" alt="" />
                         <p className="font-bold text-xl">
-                            HERO.IO
+                            HeroVault
                         </p>
                     </div>
                     <div>

@@ -1,9 +1,9 @@
 import { FaSearch } from "react-icons/fa";
 
-const AppCountAndSearch = ({ searchTerm, setSearchTerm }: { searchTerm: string, setSearchTerm: React.Dispatch<React.SetStateAction<string>> }) => {
+const AppCountAndSearch = ({ searchTerm, setSearchTerm, filteredCount }: { searchTerm: string, setSearchTerm: React.Dispatch<React.SetStateAction<string>>, filteredCount: number }) => {
     return (
         <div className="flex flex-col md:flex-row items-center justify-between gap-2">
-            <p className="text-2xl font-semibold flex-1">(132) Apps Found</p>
+            <p className="text-2xl font-semibold flex-1">({filteredCount}) Apps Found</p>
             <div className="relative mt-4">
                 <FaSearch className="absolute top-1/2 left-3 -translate-y-1/2 text-gray-400" />
                 <input

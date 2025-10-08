@@ -1,73 +1,47 @@
-# React + TypeScript + Vite
+# Hero IO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Hero IO Logo](./public/logo.png)
 
-Currently, two official plugins are available:
+## Description
+**Hero IO** is a responsive web application showcasing a curated collection of mobile applications. Users can explore, search, filter, and view detailed information about each app. The application allows users to simulate app installation, track installed apps, and sort apps by downloads. Built with a focus on performance, usability, and clean design, Hero IO mimics a real app store experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Fully responsive layout for all devices.
+- Header with navigation links and active route indication.
+- Footer with custom design.
+- JSON-based app data (12–20 objects).
+- Home page with banner, states section, and top apps.
+- All Apps page with live search, filters, and sorting by downloads.
+- App Details page with app information, description, install button, and reviews chart.
+- LocalStorage integration for installed apps.
+- Custom error page for invalid routes.
+- Smooth loading animations during navigation and search operations.
+- Deployed and fully functional without 404 errors on reload.
 
-## React Compiler
+## Technologies Used
+- **Frontend:** React, TypeScript, Tailwind CSS
+- **Charts:** Recharts
+- **State Management:** React Hooks (useState, useEffect, useMemo)
+- **Deployment:** Vercel / Netlify / Cloudflare
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-link>
+   ```
+2. Navigate to the project folder:
+  ```bash
+  cd hero-io
+  ```
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+3. Install dependencies:
+  ```bash
+  npm install
+  ```
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+4. Run the development server:
+  ```bash
+  npm run dev
+  ```
+  

@@ -17,6 +17,7 @@ const Apps = () => {
     const fetchResponse = fetchAppsData()
 
     const [searchTerm, setSearchTerm] = useState("");
+    const [filteredCount, setFilteredCount] = useState(0);
 
     return (
         <div className="py-20 bg-gray-100 min-h-[calc(100vh-302px)]">
@@ -24,10 +25,10 @@ const Apps = () => {
                 <div className="pb-6">
                     <Heading title="Our All Applications" subTitle="Explore All Apps on the Market developed by us. We code for Millions" />
                 </div>
-                <AppCountAndSearch searchTerm={searchTerm} setSearchTerm={setSearchTerm}  />
+                <AppCountAndSearch searchTerm={searchTerm} setSearchTerm={setSearchTerm} filteredCount={filteredCount}  />
 
                 <Suspense fallback={<Loading />}>
-                    <AllApps fetchResponse={fetchResponse} searchTerm={searchTerm} />
+                    <AllApps fetchResponse={fetchResponse} searchTerm={searchTerm} setFilteredCount={setFilteredCount} />
                 </Suspense>
             </div>
         </div>
