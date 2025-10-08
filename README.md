@@ -1,6 +1,6 @@
-# Hero IO
+# HeroVault
 
-[![HeroVault](https://herovault.netlify.app/)](https://herovault.netlify.app/)
+[HeroVault](https://herovault.netlify.app)
 
 
 ## Description
