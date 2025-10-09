@@ -10,7 +10,7 @@ const nabLinks = [
 
 const NavBar = () => {
     return (
-        <div className="bg-base-100 shadow-sm">
+        <div className="bg-white text-black shadow-sm">
             <div className="max-w-[1440px] navbar mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">

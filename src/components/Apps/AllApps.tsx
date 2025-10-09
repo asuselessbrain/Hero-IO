@@ -1,17 +1,34 @@
-import { use, useMemo } from "react";
+import { use, useEffect, useMemo, useState } from "react";
 import type { App } from "../../pages/Home";
 import Card from "../shared/Card";
 import AppNotFound from "../shared/AppNotFound";
 import appNotFound from "../../assets/images/App-Error.png"
+import Loading from "../shared/Loading";
 
 const AllApps = ({ fetchResponse, searchTerm, setFilteredCount }: { fetchResponse: Promise<App[]>, searchTerm: string, setFilteredCount: React.Dispatch<React.SetStateAction<number>> }) => {
     const appsData = use(fetchResponse)
+    const [isLoading, setIsLoading] = useState(false);
+
+
     const filteredApps = useMemo(() => {
         if (!searchTerm) return appsData;
         return appsData.filter(app => app.title.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase()))
     }, [appsData, searchTerm])
 
-    setFilteredCount(filteredApps.length)
+    useEffect(() => {
+        setIsLoading(true);
+
+        const timer = setTimeout(() => {
+            setFilteredCount(filteredApps.length);
+            setIsLoading(false);
+        }, 300);
+
+        return () => clearTimeout(timer);
+    }, [filteredApps, setFilteredCount]);
+
+    if (isLoading) {
+        return <Loading />;
+    }
 
 
     if (filteredApps.length === 0) {

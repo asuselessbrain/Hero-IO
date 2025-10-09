@@ -33,7 +33,7 @@ const AppDetailsComponent = ({ singleAppResponse, id }: { singleAppResponse: Pro
     }
 
     return (
-        <div className="bg-gray-100 min-h-[calc(100vh-302px)]">
+        <div className="bg-gray-100 min-h-[calc(100vh-302px)] text-black">
             <div className="max-w-[1440px] mx-auto px-2 py-20">
                 <div className="flex flex-col lg:flex-row items-center gap-10 p-10 border-b border-gray-300">
                     <img src={app?.image} alt={app?.title} className="h-[350px] w-[350px]" />

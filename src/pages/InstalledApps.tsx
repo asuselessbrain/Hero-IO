@@ -23,7 +23,7 @@ const InstalledApps = () => {
     }
 
     return (
-        <div className="bg-gray-100 min-h-[calc(100vh-302px)] py-20">
+        <div className="bg-gray-100 min-h-[calc(100vh-302px)] text-black py-20">
             <div className="max-w-[1440px] mx-auto px-2">
                 <Heading title="My Installed Apps" subTitle="Explore All Trending Apps on the Market developed by us" />
                 <div className="flex flex-col md:flex-row items-center justify-between gap-2">

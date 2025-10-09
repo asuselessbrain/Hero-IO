@@ -21,6 +21,9 @@ const Sorting = ({ handleSort }: { handleSort: (value: string) => void }) => {
                 openDropdown && (<div className="z-10 absolute top-12 -right-1 bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44">
                     <ul className="py-2 text-sm text-gray-700" aria-labelledby="dropdownDefaultButton">
                         <li>
+                            <p onClick={() => closeDropDown("", "")} className="block px-4 py-2 hover:bg-gray-100">Default</p>
+                        </li>
+                        <li>
                             <p onClick={() => closeDropDown("asc", "Low - Hight")} className="block px-4 py-2 hover:bg-gray-100">Low - High</p>
                         </li>
                         <li>

@@ -1,4 +1,4 @@
-import { Suspense, useState } from "react";
+import { Suspense, useMemo, useState } from "react";
 import AppCountAndSearch from "../components/Apps/AppCountAndSearch";
 import Heading from "../components/shared/Heading";
 import type { App } from "./Home";
@@ -14,7 +14,7 @@ const fetchAppsData = async (): Promise<App[]> => {
 
 const Apps = () => {
 
-    const fetchResponse = fetchAppsData()
+    const fetchResponse = useMemo(()=>fetchAppsData(),[])
 
     const [searchTerm, setSearchTerm] = useState("");
     const [filteredCount, setFilteredCount] = useState(0);
